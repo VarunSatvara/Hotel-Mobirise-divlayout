@@ -19,7 +19,7 @@ body {
     float: left;
     margin: 0;
     padding-left: 150px;
-    background-image: url(../images/logo1);
+    
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -44,7 +44,7 @@ body {
     margin: 0;
 }
 
-.headright1 h3 {
+.selection h3 {
     font-size: 14px;
     font-weight: 100;
     color: #333333;
@@ -749,10 +749,11 @@ body {
 .picbox1 {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(80deg, #00000040, #43434357), url(../images/7.jpg);
+    background-image: linear-gradient(180deg, #00000075, #3333339e), url(../images/7.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .picbox1 h2 {
@@ -776,9 +777,13 @@ body {
 }
 
 .picbox2 {
-    background-image: url(../images/18);
-    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(180deg, #00000075, #3333339e), url(../images/18);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .picbox2 h2 {
@@ -802,9 +807,13 @@ body {
 }
 
 .picbox3 {
-    background-image: url(../images/9.jpg);
-    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(180deg, #00000075, #3333339e),url(../images/spa.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .picbox3 h2 {
